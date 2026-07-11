@@ -10,7 +10,7 @@
 }
 
 .headerContainer > div:first-child {
-  background-color: var(--mainColor);
+  background-color: #e34c10;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,12 +29,12 @@
 }
 .summerSale {
   color: white;
-  font: 400 14px var(--mainFont);
+  font: 400 14px #e34c10;
 }
 
 .summerSaleLink {
   color: white;
-  font: 400 16px var(--mainFont);
+  font: 400 16px #e34c10;
   transition: all 0.2s;
   text-decoration: underline;
 }
@@ -47,7 +47,7 @@
   margin-bottom: 22px;
   display: flex;
   justify-content: space-between;
-  height: 35px;
+  height: 50px;
 }
 
 .logoTitle {
@@ -84,6 +84,10 @@
 }
 .homeLinks > ul > li a {
   color: black;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 .homeLinks > ul > li:last-child {
   color: white !important;
@@ -92,7 +96,7 @@
 }
 
 .homeLinks > ul > li > a:hover {
-  border-bottom: 2px solid var(--secondColor);
+  border-bottom: 2px solid #e34c10;
 }
 
 .basket-icon > img {
@@ -114,7 +118,7 @@
 }
 
 .shop-container {
-  background-color: var(--secondColor);
+  background-color: #e34c10;
   padding: 7px 14px;
   border-radius: 4px;
   color: white;
@@ -122,17 +126,17 @@
 
 .loginList > li > a,
 .logOutList > li > button {
-  background-color: var(--secondColor);
+  background-color: #e34c10;
   padding: 6px 20px;
   color: #fafafa;
-  font: 500 16px var(--mainFont);
+  font: 500 16px #e34c10;
   border-radius: 4px;
   transition: all cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .loginList > li > a:hover,
 .logOutList > li > button:hover {
-  background-color: var(--mainColor);
+  background-color: #e34c10;
 }
 
 .logOutList > li > button {
@@ -164,7 +168,7 @@
   border: none;
   outline: none;
   color: black;
-  font: 400 12px var(--mainFont);
+  font: 400 12px #e34c10;
   border-radius: 4px;
   background-color: #f5f5f5;
 }
