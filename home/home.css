@@ -56,6 +56,10 @@
   letter-spacing: -0.4px;
 }
 
+.titleSection div:last-child p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .titleHead {
   display: flex;
 }
