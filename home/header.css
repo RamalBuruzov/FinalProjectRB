@@ -1,0 +1,181 @@
+.homeHeader {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  z-index: 100;
+  border-bottom: 0.5px solid rgba(146, 146, 146, 0.538);
+  box-shadow:
+    rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.headerContainer > div:first-child {
+  background-color: var(--mainColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0;
+  gap: 8px;
+  margin-bottom: 48px;
+  border-bottom: 0.5px solid rgba(186, 186, 186, 0.633);
+}
+
+.headerContainer > div:first-child > div {
+  display: flex;
+  align-items: center;
+}
+.headerContainer > div:first-child {
+  background-color: #e34c10;
+}
+.summerSale {
+  color: white;
+  font: 400 14px var(--mainFont);
+}
+
+.summerSaleLink {
+  color: white;
+  font: 400 16px var(--mainFont);
+  transition: all 0.2s;
+  text-decoration: underline;
+}
+
+.summerSaleLink:hover {
+  color: rgb(1, 135, 172);
+}
+
+.headerContainer > div:last-child {
+  margin-bottom: 22px;
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+}
+
+.logoTitle {
+  font: 700 24px;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  gap: 66px;
+}
+
+.homeLinks > ul {
+  display: flex;
+  gap: 38px;
+}
+
+.homeLinks > ul > li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.homeLinks > ul > li a {
+  color: black;
+}
+.homeLinks > ul > li:last-child {
+  color: white !important;
+  background-color: #e34c10;
+  border-radius: 10px;
+}
+
+.homeLinks > ul > li > a:hover {
+  border-bottom: 2px solid var(--secondColor);
+}
+
+.basket-icon > img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.headerRight > div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.shop-container {
+  background-color: var(--secondColor);
+  padding: 7px 14px;
+  border-radius: 4px;
+  color: white;
+}
+
+.loginList > li > a,
+.logOutList > li > button {
+  background-color: var(--secondColor);
+  padding: 6px 20px;
+  color: #fafafa;
+  font: 500 16px var(--mainFont);
+  border-radius: 4px;
+  transition: all cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.loginList > li > a:hover,
+.logOutList > li > button:hover {
+  background-color: var(--mainColor);
+}
+
+.logOutList > li > button {
+  background-color: red;
+  border: none;
+  outline: none;
+}
+
+.logOutList > li > button:hover {
+  background-color: rgb(49, 5, 5);
+}
+
+.logOutList {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.searchSection {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  padding-right: 8px;
+}
+
+.searchSection > input {
+  padding: 7px 12px;
+  border: none;
+  outline: none;
+  color: black;
+  font: 400 12px var(--mainFont);
+  border-radius: 4px;
+  background-color: #f5f5f5;
+}
+
+.searchSection > button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+.shop-container a {
+  color: white !important;
+}
