@@ -1,0 +1,233 @@
+.aboutMain {
+  padding-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 200px;
+}
+.aboutMain > div {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  justify-content: center;
+}
+.aboutMain > div {
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 21px;
+  letter-spacing: 0%;
+}
+.aboutMain > div > div {
+  width: 100%;
+}
+.about-story {
+  display: flex;
+  align-items: center;
+}
+.about-story div {
+  width: 50%;
+}
+.about-story div h1 {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 54px;
+  leading-trim: NONE;
+  line-height: 64px;
+  letter-spacing: 6%;
+  text-align: justify;
+}
+.story-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 70px;
+}
+.story-text p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: justify;
+}
+.shop-img-story {
+  display: flex;
+  justify-content: center;
+}
+.menegers {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menegers > div {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.menegers div h2 {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 32px;
+  letter-spacing: 4%;
+}
+.menegers div p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  letter-spacing: 0%;
+}
+.menegers > div div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.menegers div img {
+  cursor: pointer;
+}
+/* Contact html-in css-i */
+.contactMain {
+  padding-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 200px;
+}
+.contactMain > div {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  justify-content: center;
+}
+.contactMain > div > p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 21px;
+  letter-spacing: 0%;
+}
+.contactMain > div > span {
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  color: #000000;
+  opacity: 50%;
+  line-height: 21px;
+  letter-spacing: 0%;
+}
+.contact-main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contact-left > div {
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  gap: 20px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 15px;
+  leading-trim: NONE;
+  line-height: 21px;
+  letter-spacing: 0%;
+  padding: 30px 0;
+}
+.contact-left > div:not(:last-child) {
+  border-bottom: 2px solid rgba(79, 79, 79, 0.603);
+}
+.contact-left > div > div {
+  display: flex;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 26px;
+  letter-spacing: 0%;
+  gap: 20px;
+}
+.contact-right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 100px;
+  gap: 30px;
+}
+.contact-right ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.contact-right ul li {
+  width: 30%;
+}
+.contact-right ul li > input {
+  background-color: #d9d9d9;
+  width: 100%;
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+}
+.contact-right > input {
+  width: 100%;
+  background-color: #d9d9d9;
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  /* line-height: 24px; */
+  letter-spacing: 0%;
+  height: 200px;
+  display: flex;
+  align-items: start;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+}
+.sendMessage {
+  display: flex;
+  align-self: flex-end;
+  color: white;
+}
+.sendMessage .front {
+  color: white;
+  width: max-content;
+}
+
+.manager1,
+.manager2,
+.manager3 {
+  width: 50px;
+  height: 100px;
+}
+
+.containerQrCode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

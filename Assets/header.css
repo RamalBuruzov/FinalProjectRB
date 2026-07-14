@@ -86,7 +86,7 @@
   color: black;
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
 }
 .homeLinks > ul > li:last-child {
@@ -98,7 +98,28 @@
 .homeLinks > ul > li > a:hover {
   border-bottom: 2px solid #e34c10;
 }
+.logoTitle {
+  display: flex;
+  align-items: center;
+}
 
+.logoTitle img {
+  height: 200px;
+  width: auto;
+  object-fit: contain;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.loginList > li > a {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.logoTitle img:hover {
+  transform: scale(1.05);
+}
 .basket-icon > img {
   width: 50px;
   height: 50px;
